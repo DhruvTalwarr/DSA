@@ -24,6 +24,6 @@ public:
         if(root -> val == subRoot -> val && fun(root, subRoot)){
             return true;
         }
-        return fun(root -> left, subRoot) || fun(root -> right, subRoot);
+        return isSubtree(root -> left, subRoot) || isSubtree(root -> right, subRoot);
     }
 };

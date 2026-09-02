@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 1 / 76 (1.3%)
+- **Completed:** 2 / 76 (2.6%)
 
 ---
 
@@ -86,7 +86,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
 - [ ] Symmetric Tree
 - [ ] Validate Binary Search Tree
-- [ ] Lowest Common Ancestor of a Binary Search Tree
+- [x] [Lowest Common Ancestor of a Binary Search Tree](./C++/Medium/235. Lowest Common Ancestor of a Binary Search Tree/)
 - [ ] Kth Smallest Element in a BST
 - [ ] Serialize and Deserialize Binary Tree
 

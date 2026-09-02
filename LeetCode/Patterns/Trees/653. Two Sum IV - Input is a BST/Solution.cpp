@@ -28,7 +28,7 @@ public:
         int n = temp.size();
         int left = 0;
         int right = n - 1;
-        while(left <= right){
+        while(left < right){
             if(temp[left] + temp[right] == k){
                 return true;
             }

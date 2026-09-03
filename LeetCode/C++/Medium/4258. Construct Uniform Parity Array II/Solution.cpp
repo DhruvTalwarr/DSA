@@ -19,3 +19,4 @@ public:
         }
         return (min_val % 2 != 0);
     }
+};

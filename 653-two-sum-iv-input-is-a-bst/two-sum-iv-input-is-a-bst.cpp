@@ -11,32 +11,61 @@
  */
 class Solution {
 public:
+    stack<TreeNode*> asc;
+    stack<TreeNode*> desc;
+    TreeNode* getsmall(){
+        if(asc.empty()) return NULL;
 
-    vector<int> temp;
-    void fun(TreeNode* root){
-        if(root == NULL) return;
+        TreeNode* small = asc.top();
+        asc.pop();
 
-        fun(root -> left);
-        temp.push_back(root -> val);
-        fun(root -> right);
+        TreeNode* rightchild = small -> right;
+        while(rightchild){
+            asc.push(rightchild);
+            rightchild = rightchild -> left;
+        }
+        return small;
+    }
 
-        return;
+    TreeNode* getbig(){
+        if(desc.empty()) return NULL;
+
+        TreeNode* big = desc.top();
+        desc.pop();
+
+        TreeNode* leftchild = big -> left;
+        while(leftchild){
+            desc.push(leftchild);
+            leftchild = leftchild -> right;
+        }
+        return big;
     }
 
     bool findTarget(TreeNode* root, int k) {
-        fun(root);
-        int n = temp.size();
-        int left = 0;
-        int right = n - 1;
-        while(left < right){
-            if(temp[left] + temp[right] == k){
-                return true;
-            }
-            else if(temp[left] + temp[right] > k){
-                right--;
+        if(root == NULL) return false;
+
+        TreeNode* t = root;
+        while(t){
+            asc.push(t);
+            t = t -> left;
+        }
+        t = root;
+        while(t){
+            desc.push(t);
+            t = t -> right;
+        }
+
+        TreeNode* i = getsmall();
+        TreeNode* j = getbig();
+
+        while((i && j) && (i != j) && (i -> val != j -> val)){
+            int sum = i -> val + j -> val ;
+            if(sum == k) return true;
+            else if(sum > k){
+                j = getbig();
             }
             else{
-                left++;
+                i = getsmall();
             }
         }
         return false;

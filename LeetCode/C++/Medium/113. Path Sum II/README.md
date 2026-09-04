@@ -1,6 +1,6 @@
 # 📝 113. Path Sum II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/path-sum-ii)
+🔗 [Problem Link](https://leetcode.com/problems/path-sum-ii/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -8,8 +8,8 @@
 Backtracking, Tree, Depth-First Search, Binary Tree
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 20.9 MB
 
 ---
 

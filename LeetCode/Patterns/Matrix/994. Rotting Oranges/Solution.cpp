@@ -30,7 +30,7 @@ public:
                 }
             }
         }
-
+        if(fresh == 0) return 0;
         while(!q.empty()){
             time++;
             int s = q.size();

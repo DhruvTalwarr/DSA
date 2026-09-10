@@ -1,6 +1,6 @@
 # 📝 130. Surrounded Regions (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/surrounded-regions)
+🔗 [Problem Link](https://leetcode.com/problems/surrounded-regions/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -8,8 +8,8 @@
 Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 3 ms
+- **Memory:** 13.9 MB
 
 ---
 

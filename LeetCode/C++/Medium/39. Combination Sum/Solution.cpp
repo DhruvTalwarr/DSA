@@ -2,12 +2,12 @@ class Solution {
 public:
 
     void fun(vector<int> &a, int n, int idx, vector<int> &diary, vector<vector<int>> &res, int sum, int target){
+
         if(sum == target){
-            if(sum == target){
-                res.push_back(diary);
-                return;
-            }
+            res.push_back(diary);
+            return;
         }
+        
         if(idx == n || sum > target){
             return;
         }

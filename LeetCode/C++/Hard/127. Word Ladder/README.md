@@ -1,6 +1,6 @@
 # 📝 127. Word Ladder (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/word-ladder)
+🔗 [Problem Link](https://leetcode.com/problems/word-ladder/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-C++-blue)
 

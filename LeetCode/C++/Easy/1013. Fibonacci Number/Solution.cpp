@@ -25,7 +25,7 @@ public:
         // return ans;
         
         //DP(tabulation)
-
+        if(n == 0 || n == 1) return n;
         int prev = 1;
         int prev_prev = 0;
 

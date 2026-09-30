@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 15 / 76 (19.7%)
+- **Completed:** 16 / 76 (21.1%)
 
 ---
 
@@ -30,7 +30,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [ ] 4Sum
 - [ ] Longest Consecutive Sequence
-- [ ] Longest Substring Without Repeating Characters
+- [x] [Longest Substring Without Repeating Characters](./C++/Medium/3. Longest Substring Without Repeating Characters/)
 
 ### 📂 Linked List
 - [x] [Reverse Linked List](./C++/Easy/206. Reverse Linked List/)

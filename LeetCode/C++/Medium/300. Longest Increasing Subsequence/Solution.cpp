@@ -6,12 +6,12 @@ public:
 
         if(prev == -1 || a[i] > a[prev]){
             int c1 = 1 + fun(a, n, i + 1, i, dp);
-            int c2 = fun(a, n, i + 1, prev);
+            int c2 = fun(a, n, i + 1, prev, dp);
 
             return dp[i][prev + 1] = max(c1, c2);
         }
 
-        return dp[i][prev + 1] = fun(a, n, i + 1, prev);
+        return dp[i][prev + 1] = fun(a, n, i + 1, prev, dp);
     }
 
     int lengthOfLIS(vector<int>& nums) {
@@ -20,7 +20,7 @@ public:
         int i = 0;
         vector<vector<int>>dp(n + 1);
         
-        for(int i = 0 ; i < n ; ; i++){
+        for(int i = 0 ; i < n ; i++){
             vector<int> t(n + 1, -1);
             dp[i] = t;
         }

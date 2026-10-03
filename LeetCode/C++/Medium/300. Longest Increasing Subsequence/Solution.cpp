@@ -5,7 +5,7 @@ public:
         if(i == n) return 0;
 
         if(prev == -1 || a[i] > a[prev]){
-            int c1 = 1 + fun(a, n, i + 1, i);
+            int c1 = 1 + fun(a, n, i + 1, i, dp);
             int c2 = fun(a, n, i + 1, prev);
 
             return dp[i][prev + 1] = max(c1, c2);

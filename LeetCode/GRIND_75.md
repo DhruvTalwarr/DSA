@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 17 / 75 (22.7%)
+- **Completed:** 18 / 75 (24.0%)
 
 ---
 
@@ -31,7 +31,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 ### 📂 Dynamic Programming
 - [x] [Climbing Stairs](./C++/Easy/70. Climbing Stairs/)
 - [x] [Coin Change](./C++/Medium/322. Coin Change/)
-- [ ] Longest Increasing Subsequence
+- [x] [Longest Increasing Subsequence](./C++/Medium/300. Longest Increasing Subsequence/)
 - [ ] Longest Common Subsequence
 - [ ] Word Break
 - [x] [Combination Sum](./C++/Medium/39. Combination Sum/)

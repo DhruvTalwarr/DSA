@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 18 / 76 (23.7%)
+- **Completed:** 19 / 76 (25.0%)
 
 ---
 
@@ -26,7 +26,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Pow(x, n)
 - [ ] Majority Element
 - [ ] Majority Element II
-- [ ] Unique Paths
+- [x] [Unique Paths](./C++/Medium/62. Unique Paths/)
 - [x] [Two Sum](./C++/Easy/1. Two Sum/)
 - [ ] 4Sum
 - [ ] Longest Consecutive Sequence

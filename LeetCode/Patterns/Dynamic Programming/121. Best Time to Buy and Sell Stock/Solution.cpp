@@ -4,7 +4,7 @@ public:
         if(i == n || k == 0) return 0;
 
         if(k == 2){
-            int c1 = fun(a, n, i + 1, k - 1) - a[i];
+            int c1 = fun(a, n, i + 1, k - 1, dp) - a[i];
             int c2 = fun(a, n, i + 1, k);
             return dp[i][k] = max(c1, c2);
         }  

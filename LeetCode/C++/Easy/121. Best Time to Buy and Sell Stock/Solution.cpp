@@ -19,7 +19,12 @@ public:
     int maxProfit(vector<int>& prices) {
         int n = prices.size();
         int k = 2;
-        vecto
+        vector<vector<int>> dp(n + 1);
+        for(int i = 0 ; i <= n ; i++){
+            vector<int> t(k, -1);
+            dp[i] = t;
+        }
+
         int count = fun(prices, n, 0, k);
         return count;
     }

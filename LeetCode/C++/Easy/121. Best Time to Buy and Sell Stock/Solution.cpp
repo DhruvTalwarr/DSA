@@ -25,7 +25,7 @@ public:
             dp[i] = t;
         }
 
-        int count = fun(prices, n, 0, k);
+        int count = fun(prices, n, 0, k, );
         return count;
     }
 };

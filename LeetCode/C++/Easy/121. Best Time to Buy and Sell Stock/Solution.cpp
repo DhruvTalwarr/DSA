@@ -1,18 +1,18 @@
 class Solution {
 public:
-    int fun(vector<int> &a, int n, int i, int k){
+    int fun(vector<int> &a, int n, int i, int k, vector<vector<int>> &dp){
         if(i == n || k == 0) return 0;
 
         if(k == 2){
             int c1 = fun(a, n, i + 1, k - 1) - a[i];
             int c2 = fun(a, n, i + 1, k);
-            return max(c1, c2);
+            return dp[i][k] = max(c1, c2);
         }  
 
         else{
             int c1 = fun(a, n, i + 1, k - 1) + a[i];
             int c2 = fun(a, n, i + 1, k);
-            return max(c1, c2);
+            return dp[i][k] = max(c1, c2);
         }
     }
     
@@ -25,7 +25,7 @@ public:
             dp[i] = t;
         }
 
-        int count = fun(prices, n, 0, k, );
+        int count = fun(prices, n, 0, k, dp);
         return count;
     }
 };

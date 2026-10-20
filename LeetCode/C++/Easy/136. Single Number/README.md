@@ -1,6 +1,6 @@
 # 📝 136. Single Number (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/single-number)
+🔗 [Problem Link](https://leetcode.com/problems/single-number/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -8,8 +8,8 @@
 Array, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 20.7 MB
 
 ---
 

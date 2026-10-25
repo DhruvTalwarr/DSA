@@ -15,14 +15,14 @@ public:
                 ten++;
             }
             else{
-                if(ten > 0){
+                if (ten > 0 && five > 0) {
                     ten--;
-                    if(five == 0) return false;
                     five--;
                 }
-                else{
-                    if(five >= 3) 
-                    five = five - 3;
+                else if (five >= 3) {
+                    five -= 3;
+                }
+                else {
                     return false;
                 }
             }

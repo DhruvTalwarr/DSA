@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 24 / 75 (32.0%)
+- **Completed:** 25 / 75 (33.3%)
 
 ---
 
@@ -39,7 +39,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] House Robber II
 - [ ] Decode Ways
 - [x] [Unique Paths](./C++/Medium/62. Unique Paths/)
-- [ ] Jump Game
+- [x] [Jump Game](./C++/Medium/55. Jump Game/)
 
 ### 📂 Graph
 - [ ] Clone Graph

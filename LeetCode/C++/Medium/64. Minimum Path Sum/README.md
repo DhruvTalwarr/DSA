@@ -8,8 +8,8 @@
 Array, Dynamic Programming, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 16 MB
 
 ---
 
@@ -19,7 +19,7 @@ Given a  `m x n`   `grid`  filled with non-negative numbers, find a path from to
 
 **Note:**  You can only move either down or right at any point in time.
 
-OriginalC++ **Example 1:**
+**Example 1:**
 
  ![image](https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg) 
 
